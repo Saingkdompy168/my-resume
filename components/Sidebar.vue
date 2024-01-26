@@ -10,17 +10,17 @@ function toggleMenu() {
   <aside class="sidebar" :class="{ active: isOpen }">
     <div class="sidebar-info">
       <figure class="avatar-box">
-        <img src="/images/avatar.png" alt="Photo" width="80">
+        <img src="/images/kdompy-saing.png" alt="Photo" width="80">
       </figure>
 
       <div class="info-content">
-        <h1 class="name" title="Agcrismanto Budhi Praswastyka">
-          Agcrismanto Budhi Praswastyka
+        <h1 class="name" title="Kdompy Saing">
+          Kdompy Saing
         </h1>
 
         <p class="title text-center xl:block flex items-center justify-center gap-1">
-          <span class="xl:after:content-[''] after:content-[',']">Cybersecurity</span>
-          <span>Web Developer</span>
+          <span class="xl:after:content-[''] after:content-[',']">Manager</span>
+          <span>Mobile Application Development</span>
         </p>
       </div>
 
@@ -42,24 +42,24 @@ function toggleMenu() {
 
           <div class="contact-info">
             <p class="contact-title">
-              Twitter
+              X
             </p>
 
-            <a href="https://twitter.com/agcrisbp" class="contact-link" target="_blank">agcrisbp</a>
+            <a href="https://twitter.com/saingkdompy" class="contact-link" target="_blank">Saing Kdompy</a>
           </div>
         </li>
 
         <li class="contact-item">
           <div class="icon-box">
-            <ion-icon name="logo-github" />
+            <ion-icon name="logo-electron" />
           </div>
 
           <div class="contact-info">
             <p class="contact-title">
-              Github
+              Telegram
             </p>
 
-            <a href="https://github.com/agcrisbp" class="contact-link" target="_blank">agcrisbp</a>
+            <a href="https://t.me/kdompy_saing" class="contact-link" target="_blank">Kdompy Saing</a>
           </div>
         </li>
 
@@ -73,7 +73,7 @@ function toggleMenu() {
               Linkedin
             </p>
 
-            <a href="https://id.linkedin.com/in/agcrisbp" class="contact-link" target="_blank">Agcrismanto Budhi Praswastyla</a>
+            <a href="https://www.linkedin.com/in/saing-kdompy-637580140/" class="contact-link" target="_blank">Kdompy Saing</a>
           </div>
         </li>
 
@@ -87,7 +87,7 @@ function toggleMenu() {
               Location
             </p>
 
-            <address>Indonesia</address>
+            <address>Phnom Penh</address>
           </div>
         </li>
       </ul>
@@ -96,7 +96,7 @@ function toggleMenu() {
 
       <ul class="social-list">
         <li class="social-item">
-          <NuxtLink to="mailto:agcrisbp@email.com" class="social-link" target="_blank">
+          <NuxtLink to="mailto:saingkdompy@email.com" class="social-link" target="_blank">
             <ion-icon name="mail-outline" />
           </NuxtLink>
         </li>

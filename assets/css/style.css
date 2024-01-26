@@ -332,9 +332,13 @@ main {
   gap: 15px;
 }
 
-.avatar-box {
+/*.avatar-box {
   background: var(--bg-gradient-onyx);
-  border-radius: 20px;
+  border-radius: 40px;
+}*/
+.image-profile{
+  width:80;
+  height:40;
 }
 
 .info-content .name {
@@ -1395,7 +1399,7 @@ textarea.contact::-webkit-resizer { display: none; }
 
   .about .article-title { margin-bottom: 20px; }
 
-  .about-text { margin-bottom: 40px; }
+  
   
   .about-item {
     display: flex;
@@ -1900,5 +1904,25 @@ textarea.contact::-webkit-resizer { display: none; }
 	 */
 
   .timeline-text { max-width: 700px; }
+
+  .education-margin{
+    margin-inline-start: 15px;
+  }
+.history-article-title {
+  position: relative;
+  padding-bottom: 7px;
+}
+
+.history-article-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 120px;
+  height: 4px;
+  background: var(--text-gradient-yellow);
+  border-radius: 3px;
+}
+  
 
 }
