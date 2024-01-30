@@ -21,8 +21,8 @@ onMounted(() => {
 
 <template>
   <LoadingPage v-show="!loadingPage" />
-
   <NuxtLayout>
+    <VitePwaManifest />
     <NuxtPage transition />
   </NuxtLayout>
 </template>
