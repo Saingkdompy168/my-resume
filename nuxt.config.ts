@@ -105,4 +105,35 @@ export default defineNuxtConfig({
       type: "module",
     },
   },
+
+  head() {
+    return {
+      title: 'Kdompy Saing',
+      meta: [
+        {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'My personal information',
+        },
+        {
+          hid: 'og:type',
+          name: 'og:type',
+          content: 'website',
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content:
+            'images/icon',
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content:
+            'You could find me on my wesite resume',
+        },
+      ],
+    }
+  },
+
 })
