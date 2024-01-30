@@ -124,7 +124,7 @@ export default defineNuxtConfig({
           hid: 'og:image',
           name: 'og:image',
           content:
-            'images/icon',
+            'images/icon.png',
         },
         {
           hid: 'og:description',

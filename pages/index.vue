@@ -40,26 +40,6 @@ const { data: about } = await useFetch("/api/about");
 <template>
   <article class="about active" data-page="about">
     <header>
-      <!-- HTML Meta Tags -->
-<title>Kdompy Saing</title>
-<meta name="description" content="Personal site about Kdompy Saing">
-
-<!-- Facebook Meta Tags -->
-<meta property="og:url" content="https://www.linkedin.com/in/saing-kdompy-637580140/">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Kdompy Saing">
-<meta property="og:description" content="Personal site about Kdompy Saing">
-<meta property="og:image" content="public/images/icon512x512.png">
-
-<!-- Twitter Meta Tags -->
-<meta name="twitter:card" content="summary_large_image">
-<meta property="twitter:domain" content="kdompysaing.com">
-<meta property="twitter:url" content="https://twitter.com/saingkdompy">
-<meta name="twitter:title" content="Kdompy Saing">
-<meta name="twitter:description" content="Personal site about Kdompy Saing">
-<meta name="twitter:image" content="public/images/icon512x512.png">
-
-<!-- Meta Tags Generated via https://www.opengraph.xyz -->
       <h2 class="h2 article-title">
         {{ $t("pageTitles.about") }}
       </h2>
