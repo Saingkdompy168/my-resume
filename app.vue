@@ -1,6 +1,7 @@
 <script setup>
 import { useI18n } from 'vue-i18n'
 import { useLocaleStore } from './composables/locale'
+import { SpeedInsights } from '@vercel/speed-insights/vue';
 const { locale } = useI18n({ useScope: 'global' })
 const cookieLocale = useLocaleStore()
 
@@ -24,6 +25,7 @@ onMounted(() => {
   <NuxtLayout>
     <VitePwaManifest />
     <NuxtPage transition />
+      <SpeedInsights />
   </NuxtLayout>
 </template>
 
