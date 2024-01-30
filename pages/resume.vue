@@ -102,29 +102,6 @@ useHead({
           </p>
         </li>
 
-        <li class="timeline-item">
-          <h4 class="h4 timeline-item-title">
-            Senior Android Developer
-          </h4>
-          <span>Pathmazing  &emsp;&emsp; Feb-2017 - Mar -2021</span>
-          <p class="timeline-item-desc">
-            Responsibilities
-          </p>
-          <p class="timeline-text">
-            • Writing clean and efficient codes for Android applications. Monitoring the performance of live apps and work on optimizing them at the code level.<br>
-            • Identifying and resolving bottlenecks, rectifying bugs and enhancing application performance.<br>
-            • Performing unit and instrumentation tests on code.<br>
-            • Collaborating with cross-functional teams to define and design new features.<br>
-            • Staying up to date with new mobile technology trends, applications, and protocols.<br>
-            • Design and build advanced applications for the Android platform <br>
-            • Collaborate with cross-functional teams to define, design, and ship new features<br>
-            • Work with outside data sources and APIs<br>
-            • Work on bug fixing and improving application performance<br>
-            • Continuously discover, evaluate, and implement new technologies to maximize development efficiency<br>
-            • Build user interfaces designed by UI/UX designers<br>
-            • Integrate user-interfaces elements developed by other developers<br>
-          </p>
-        </li>
 <!-- Pathmazing Experience -->
         <li class="timeline-item">
           <h4 class="h4 timeline-item-title">
