@@ -40,8 +40,6 @@ const { data: about } = await useFetch("/api/about");
 <template>
   <article class="about active" data-page="about">
     <header>
-      <meta name="description" content="Kdompy Saing">
-      <meta property="og:image" content="https://media.licdn.com/dms/image/C5603AQGJgO-m4howxg/profile-displayphoto-shrink_800_800/0/1646530680969?e=2147483647&v=beta&t=0sgeZ4Dj3Vu7fsY1FuUyT2Ls_ARfr2-YUSBVjBTgiPc">
       <h2 class="h2 article-title">
         {{ $t("pageTitles.about") }}
       </h2>
