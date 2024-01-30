@@ -23,9 +23,9 @@ onMounted(() => {
 <template>
   <LoadingPage v-show="!loadingPage" />
   <NuxtLayout>
-    <VitePwaManifest />
     <NuxtPage transition />
-      <SpeedInsights />
+    <VitePwaManifest />
+    <SpeedInsights />
   </NuxtLayout>
 </template>
 
