@@ -1,4 +1,12 @@
 export default defineNuxtConfig({
+  buildModules: [
+    '@nuxtjs/pwa',
+  ],
+  pwa: {
+    icon: {
+      src:'~/Users/saingkdompy/Desktop/Vue Js/ADResume/public/images/icon.png'
+    }
+  },
   modules: [
     '@vueuse/nuxt',
     '@pinia/nuxt',
