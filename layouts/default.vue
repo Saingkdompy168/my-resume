@@ -13,7 +13,7 @@ useHead({
       { charset: 'utf-8' },
       { name: 'description', content: 'Personal site about Kdompy Saing' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'og:image', content: '' }
+      { name: 'og:image', content: '../images/icon512x512.png' }
     ],
   link: [
     {
