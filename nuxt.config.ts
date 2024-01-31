@@ -124,7 +124,7 @@ export default defineNuxtConfig({
           hid: 'og:image',
           name: 'og:image',
           content:
-            'images/opengraph.png',
+            'public/images/opengraph.png',
         },
         {
           hid: 'og:description',
