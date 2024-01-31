@@ -28,7 +28,7 @@ useHead({
           hid: 'og:image',
           name: 'og:image',
           content:
-            'https://drive.google.com/file/d/1UmKYSHEUSqylTQgr422vTzhs8rmwPhtb/view',
+            'https://res.cloudinary.com/dpa1liyaa/image/upload/v1706688169/Photo%20Resume/opengraph_a9rzgs.png',
         },
         {
           hid: 'og:description',
@@ -40,7 +40,7 @@ useHead({
     ],
   link: [
     {
-      rel: 'icon', type: 'image/png', href: '../images/icon.png',
+      rel: 'icon', type: 'image/png', href: 'https://res.cloudinary.com/dpa1liyaa/image/upload/v1706688169/Photo%20Resume/opengraph_a9rzgs.png',
     },
     {
       rel: 'preconnect',
