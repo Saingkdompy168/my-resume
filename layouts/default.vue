@@ -28,7 +28,7 @@ useHead({
           hid: 'og:image',
           name: 'og:image',
           content:
-            '../images/opengraph.png',
+            'images/opengraph.png',
         },
         {
           hid: 'og:description',
