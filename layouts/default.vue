@@ -40,7 +40,7 @@ useHead({
     ],
   link: [
     {
-      rel: 'icon', type: 'image/png', href: 'https://res.cloudinary.com/dpa1liyaa/image/upload/v1706688169/Photo%20Resume/opengraph_a9rzgs.png',
+      rel: 'icon', type: 'image/png', href: '../images/icon.png',
     },
     {
       rel: 'preconnect',
