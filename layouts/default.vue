@@ -11,9 +11,31 @@ useHead({
   },
   meta: [
       { charset: 'utf-8' },
-      { name: 'description', content: 'Personal site about Kdompy Saing' },
+      // { name: 'description', content: 'Personal site about Kdompy Saing' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'og:image', content: '../images/icon512x512.png' }
+      // { name: 'og:image', content: '../images/icon512x512.png' },
+      {
+          hid: 'og:title',
+          name: 'og:title',
+          content: 'My personal information',
+        },
+        {
+          hid: 'og:type',
+          name: 'og:type',
+          content: 'website',
+        },
+        {
+          hid: 'og:image',
+          name: 'og:image',
+          content:
+            'https://media.licdn.com/dms/image/C5603AQGJgO-m4howxg/profile-displayphoto-shrink_800_800/0/1646530680969?e=2147483647&v=beta&t=0sgeZ4Dj3Vu7fsY1FuUyT2Ls_ARfr2-YUSBVjBTgiPc',
+        },
+        {
+          hid: 'og:description',
+          name: 'og:description',
+          content:
+            'You could find me on my wesite resume',
+        },
     ],
   link: [
     {
