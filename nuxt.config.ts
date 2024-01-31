@@ -124,7 +124,7 @@ export default defineNuxtConfig({
           hid: 'og:image',
           name: 'og:image',
           content:
-            'public/images/opengraph.png',
+            'https://res.cloudinary.com/dpa1liyaa/image/upload/v1706688169/Photo%20Resume/opengraph_a9rzgs.png',
         },
         {
           hid: 'og:description',
