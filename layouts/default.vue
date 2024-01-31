@@ -28,7 +28,7 @@ useHead({
           hid: 'og:image',
           name: 'og:image',
           content:
-            'images/opengraph.png',
+            'https://drive.google.com/file/d/1UmKYSHEUSqylTQgr422vTzhs8rmwPhtb/view',
         },
         {
           hid: 'og:description',
