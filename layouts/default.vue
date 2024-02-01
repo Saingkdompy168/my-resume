@@ -28,7 +28,7 @@ useHead({
           hid: 'og:image',
           name: 'og:image',
           content:
-            'https://res.cloudinary.com/dpa1liyaa/image/upload/v1706769388/Photo%20Resume/New_Project_soxdbs.png',
+            'https://res.cloudinary.com/dpa1liyaa/image/upload/v1706770015/Photo%20Resume/New_Project_1_nqtshp.png',
         },
         {
           hid: 'og:description',
