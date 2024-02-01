@@ -124,7 +124,7 @@ export default defineNuxtConfig({
           hid: 'og:image',
           name: 'og:image',
           content:
-            'https://res.cloudinary.com/dpa1liyaa/image/upload/v1706689441/Photo%20Resume/photograph_jnwgs9.png',
+            'https://res.cloudinary.com/dpa1liyaa/image/upload/v1706747782/Photo%20Resume/photograph_jki91p.png',
         },
         {
           hid: 'og:description',

@@ -67,19 +67,20 @@ const { data: about } = await useFetch("/api/about");
           </h4>
           <span>SETEC Intitute    &emsp; &emsp; Dec-2023 — Present</span>
         </li>
-<!-- RUPP Education -->
-        <li class="timeline-item">
-          <h4 class="h4 timeline-item-title">
-            Bachelor's degree, Computer Science
-          </h4>
-          <span>Royal University of Phnom Penh &emsp;  2013 — 2018</span>
-        </li>
 <!-- AEU Education -->
         <li class="timeline-item">
           <h4 class="h4 timeline-item-title">
             Bachelor's degree, English Language and Literature General
           </h4>
           <span>Asia Euro University &emsp; 2018-Present (Hang up a name)</span>
+        </li>
+
+<!-- RUPP Education -->
+        <li class="timeline-item">
+          <h4 class="h4 timeline-item-title">
+            Bachelor's degree, Computer Science
+          </h4>
+          <span>Royal University of Phnom Penh &emsp;  2013 — 2018</span>
         </li>
  <!-- Hunsen chompouvon Education -->       
         <li class="timeline-item">
