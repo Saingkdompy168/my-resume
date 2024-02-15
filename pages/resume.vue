@@ -28,6 +28,7 @@ useHead({
             • Play scrum role as scrum Master <br>
             • Agile project management <br>
             • Mobile IOS, Android & Hybrid <br>
+            • Process memo and financial analysis <br>
           </p>
         </li>
 <!-- SBI Experience -->
