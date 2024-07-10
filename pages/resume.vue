@@ -29,7 +29,7 @@ useHead({
             • Agile project management <br>
             • Mobile IOS, Android & Hybrid <br>
             • Woking with outsourcing vendor<br>
-            • Source code scanning coveriy with synopsys <br>
+            • Source code scanning coverity analysis with synopsys <br>
             • Process memo and financial analysis <br>
           </p>
         </li>
