@@ -110,14 +110,16 @@ const { data: about } = await useFetch("/api/about");
             • Star pathmazing R&D <br>
             • Kazoo by USA client <br>
             • DMS by khmer beverages <br>
-            • IQPS by Big cola<br>
-            • Firearm by USA client<br>
-            • Pukmak by Cellcard<br>
-            • Sathapana Consumer, Merchant by Sathapana Bank<br>
-            • SBI Ly Hour Consumer by SBILH Bank<br>
-            • Loan Application by Woori Bank<br>
-            • Loan Collection by Woori Bank<br>
-            • Tab-Banking by Woori Bank<br>
+            • IQPS by Big cola <br>
+            • Firearm by USA client <br>
+            • Pukmak by Cellcard <br>
+            • Sathapana Consumer, Merchant by Sathapana Bank <br>
+            • SBI Ly Hour Consumer by SBILH Bank <br>
+            • Loan Application by Woori Bank <br>
+            • Loan Collection by Woori Bank <br>
+            • Tab-Banking by Woori Bank <br>
+            • Woori Consumer by Woori Bank <br>
+            • Firm-Banking by Woori Bank <br>
           </p>
         </li>
       </ol>

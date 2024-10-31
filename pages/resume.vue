@@ -31,6 +31,17 @@ useHead({
             • Woking with outsourcing vendor<br>
             • Source code scanning coverity analysis with synopsys <br>
             • Process memo and financial analysis <br>
+            • Participate in daily scrum meetings such as sprints, planning, and other scrum meetings <br>
+            • Communicate with related teams and managers to report and follow-up issues <br>
+            • Monitor security, performance, and crashes of mobile apps <br>
+            • Prepare and control testing environments & users and prepare and organize project-related documents <br>
+            • Manage third-party accounts for the development team <br>
+            • Implement and update security on mobile apps <br>
+            • Analyze requirements propose technical solutions and estimate development timeline <br>
+            • Arrange the plan and team to develop the system and follow agile scrum methodology in the system development life cycle <br>
+            • Ad-hoc tasks will be assigned by the line manager <br>
+            • Provide technical training to your team and support other teams or staff for knowledge-sharing <br>
+            • Collaborate with frontend developers to integrate backend API or other system with other 3rd party or our mobile applications <br>
           </p>
         </li>
 <!-- SBI Experience -->
