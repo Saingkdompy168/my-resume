@@ -1,4 +1,3 @@
-
 export default defineNuxtConfig({
   modules: [
     '@vueuse/nuxt',
@@ -8,17 +7,19 @@ export default defineNuxtConfig({
     '@intlify/nuxt3',
     '@vite-pwa/nuxt',
   ],
-  
-  
+
   experimental: {
     reactivityTransform: true,
     viteNode: false,
   },
+
   plugins: [{ src: '~/plugins/vercel.ts', mode: 'client' }
   ],
+
   colorMode: {
     classSuffix: '',
   },
+
   // https://github.com/nuxt/framework/issues/6204#issuecomment-1201398080
   hooks: {
     'vite:extendConfig': function (config: any, { isServer }: any) {
@@ -29,15 +30,18 @@ export default defineNuxtConfig({
       }
     },
   },
+
   css: [
     // 'primevue/resources/themes/bootstrap4-dark-blue/theme.css',
     // 'primevue/resources/primevue.css',
     // 'primeicons/primeicons.css',
     '/assets/css/style.css',
   ],
+
   build: {
     transpile: ['primevue', 'pinia-orm'],
   },
+
   tailwindcss: {
     cssPath: '~/assets/css/tailwind.css',
     configPath: 'tailwind.config.js',
@@ -45,6 +49,7 @@ export default defineNuxtConfig({
     injectPosition: 0,
     viewer: true,
   },
+
   vue: {
     config: {
       productionTip: true,
@@ -54,10 +59,12 @@ export default defineNuxtConfig({
       isCustomElement: tag => tag.startsWith('ion-'),
     },
   },
+
   loading: {
     color: 'blue',
     height: '5px',
   },
+
   pwa: {
     manifest: {
       name: "Kdompy Saing",
@@ -136,4 +143,5 @@ export default defineNuxtConfig({
     }
   },
 
+  compatibilityDate: '2024-12-07',
 })
