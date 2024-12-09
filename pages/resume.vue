@@ -58,14 +58,14 @@ useHead({
           • Do enhancement on exiting module<br>
           • Give timely support and fixed any issues <br>
           • Code review and feedback<br>
-          <!-- • CI/CD integrated<br>
+          • CI/CD integrated<br>
           • Architect and develop sophisticated mobile apps<br>
           • Build and refine complex features with precision<br>
           • Partner with multi-disciplinary teams to design and deploy cutting-edge functionalities<br>
           • Seamlessly integrate with diverse APIs<br>
           • Conduct rigorous testing to ensure reliability, usability, and quality<br>
           • Troubleshoot and enhance app performance<br>
-          • Explore and implement emerging technologies to optimize workflows<br> -->
+          • Explore and implement emerging technologies to optimize workflows<br>
           • Collaborate with product and UX teams to refine feature requirements<br>
           • Independently handle medium to large-scale features, from UI to backend logic<br>
           • Perform comprehensive testing to guarantee high-quality releases<br>
