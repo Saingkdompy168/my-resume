@@ -6,28 +6,16 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@intlify/nuxt3',
     '@vite-pwa/nuxt',
+    '@pinia/nuxt',
   ],
 
    i18n: {
     vueI18n: './i18n.config.ts', // Path to your i18n configuration
   },
-  // i18n: {
-  //   vueI18n: {
-  //     legacy: false, 
-  //     locale: 'en', 
-  //     messages: { 
-  //       en: { 
-  //         welcome: 'Welcome' 
-  //       },
-  //       fr: { 
-  //         welcome: 'Bienvenue'
-  //       }
-  //     }
-  //   }
-  // }
-
-
-
+  
+  alias: {
+    pinia: "pinia/dist/pinia.mjs"
+ },
   experimental: {
     reactivityTransform: true,
     viteNode: false,
