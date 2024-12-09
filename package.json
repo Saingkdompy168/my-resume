@@ -23,7 +23,7 @@
     "@vite-pwa/nuxt": "^0.4.0",
     "@vueuse/nuxt": "^10.2.1",
     "eslint": "^8.45.0",
-    "nuxt": "^3.6.5",
+    "nuxt": "^3.14.1592",
     "pinia": "^2.1.4",
     "tailwindcss-dark-mode": "^1.1.7",
     "typescript": "^5.1.6",

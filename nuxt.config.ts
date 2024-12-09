@@ -8,6 +8,26 @@ export default defineNuxtConfig({
     '@vite-pwa/nuxt',
   ],
 
+   i18n: {
+    vueI18n: './i18n.config.ts', // Path to your i18n configuration
+  },
+  // i18n: {
+  //   vueI18n: {
+  //     legacy: false, 
+  //     locale: 'en', 
+  //     messages: { 
+  //       en: { 
+  //         welcome: 'Welcome' 
+  //       },
+  //       fr: { 
+  //         welcome: 'Bienvenue'
+  //       }
+  //     }
+  //   }
+  // }
+
+
+
   experimental: {
     reactivityTransform: true,
     viteNode: false,
@@ -30,6 +50,8 @@ export default defineNuxtConfig({
       }
     },
   },
+
+
 
   css: [
     // 'primevue/resources/themes/bootstrap4-dark-blue/theme.css',
@@ -145,3 +167,4 @@ export default defineNuxtConfig({
 
   compatibilityDate: '2024-12-07',
 })
+
