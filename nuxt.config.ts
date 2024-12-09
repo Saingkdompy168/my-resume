@@ -12,7 +12,7 @@ export default defineNuxtConfig({
    i18n: {
     vueI18n: './i18n.config.ts', // Path to your i18n configuration
   },
-  
+  css: ['~/assets/css/main.css'],
   alias: {
     pinia: "pinia/dist/pinia.mjs"
  },
