@@ -58,7 +58,7 @@ useHead({
           • Do enhancement on exiting module<br>
           • Give timely support and fixed any issues <br>
           • Code review and feedback<br>
-          • CI/CD integrated<br>
+          <!-- • CI/CD integrated<br> -->
           • Architect and develop sophisticated mobile apps<br>
           • Build and refine complex features with precision<br>
           • Partner with multi-disciplinary teams to design and deploy cutting-edge functionalities<br>
