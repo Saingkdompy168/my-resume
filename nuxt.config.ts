@@ -12,10 +12,10 @@ export default defineNuxtConfig({
    i18n: {
     vueI18n: './i18n.config.ts', // Path to your i18n configuration
   },
-  css: ['~/assets/css/main.css'],
-  alias: {
-    pinia: "pinia/dist/pinia.mjs"
- },
+  // css: ['~/assets/css/main.css'],
+//   alias: {
+//     pinia: "pinia/dist/pinia.mjs"
+//  },
   experimental: {
     reactivityTransform: true,
     viteNode: false,
@@ -38,8 +38,6 @@ export default defineNuxtConfig({
       }
     },
   },
-
-
 
   css: [
     // 'primevue/resources/themes/bootstrap4-dark-blue/theme.css',
