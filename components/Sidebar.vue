@@ -73,7 +73,7 @@ function toggleMenu() {
               Linkedin
             </p>
 
-            <a href="https://www.linkedin.com/in/saing-kdompy-637580140/" class="contact-link" target="_blank">Kdompy Saing</a>
+            <a href="https://www.linkedin.com/in/kdompy-saing-637580140/" class="contact-link" target="_blank">Kdompy Saing</a>
           </div>
         </li>
 
