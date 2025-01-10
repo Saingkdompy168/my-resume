@@ -102,12 +102,13 @@ useHead({
           • Tech talk share knowledge to hold team with selected by head.<br>
           </p>
         </li>
+
 <!-- Pathmazing Experience -->
         <li class="timeline-item">
           <h4 class="h4 timeline-item-title">
-          Flutter Developer
+            Senior Android and Flutter Developer
           </h4>
-          <span>Pathmazing  &emsp;&emsp; May-2021 - Des-2021</span>
+          <span>Pathmazing  &emsp;&emsp; Feb-2017 - Des -2021</span>
           <p class="timeline-item-desc">
             Responsibilities
           </p>
@@ -123,19 +124,6 @@ useHead({
             • Collaborate closely with the teams of UI/UX designers, PMs, QAs, and other developers<br>
             • Participate in software architecture, design discussions and code reviews Optimize application for maximum speed and scalability<br>
             • Follow the company guidelines and best practices<br>
-          </p>
-        </li>
-
-<!-- Pathmazing Experience -->
-        <li class="timeline-item">
-          <h4 class="h4 timeline-item-title">
-            Senior Android Developer
-          </h4>
-          <span>Pathmazing  &emsp;&emsp; Feb-2017 - Mar -2021</span>
-          <p class="timeline-item-desc">
-            Responsibilities
-          </p>
-          <p class="timeline-text">
             • Writing clean and efficient codes for Android applications. Monitoring the performance of live apps and work on optimizing them at the code level.<br>
             • Identifying and resolving bottlenecks, rectifying bugs and enhancing application performance.<br>
             • Performing unit and instrumentation tests on code.<br>
