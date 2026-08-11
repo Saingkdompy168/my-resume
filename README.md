@@ -1,17 +1,26 @@
-+Instruction when clone project 
-  -npm install
-  -npm install @intlify/nuxt3@latest
-  -npm install pinia @pinia/nuxt        
--------------------------------------
-+Configuration on nuxt.config.ts
-  modules: [
-    '@vueuse/nuxt',
-    '@pinia/nuxt',
-    '@nuxtjs/color-mode',
-    '@nuxtjs/tailwindcss',
-    '@intlify/nuxt3',
-    '@vite-pwa/nuxt',
-    '@pinia/nuxt',
-  ],
--------------------------------------
-  
+# Kdompy Saing — Personal Resume
+
+Built with Next.js (App Router), TypeScript, Tailwind CSS, and shadcn/ui.
+
+## Run locally
+
+```
+npm install
+npm run dev
+```
+
+Open http://localhost:3000
+
+## Other commands
+
+- `npm run build` — production build
+- `npm run start` — run the production build (run `build` first)
+- `npm run lint` — lint the project
+
+## Structure
+
+- `app/` — pages (`/` About, `/resume` Resume), layout, metadata, sitemap/robots
+- `components/` — Sidebar, nav tabs, theme toggle, animated network background
+- `components/ui/` — shadcn/ui primitives (button, card, badge, accordion, avatar)
+- `lib/data.ts` — resume content (bio, skills, education, achievements, work history)
+- `public/images/` — profile photo and icons

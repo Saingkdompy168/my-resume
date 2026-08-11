@@ -1,6 +1,12 @@
 node_modules
 *.log
-dist
-.output
-.nuxt
+.next
+out
 .env
+.env*.local
+next-env.d.ts
+.DS_Store
+
+# Serwist (PWA service worker, generated at build time)
+public/sw*
+public/swe-worker*

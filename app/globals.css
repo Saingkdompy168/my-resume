@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 98%;
+    --foreground: 240 6% 10%;
+    --card: 0 0% 100%;
+    --surface-2: 240 5% 96%;
+    --border: 240 6% 90%;
+    --muted-foreground: 240 4% 40%;
+
+    --brand: 37 90% 51%;
+    --brand-contrast: 20 60% 8%;
+  }
+
+  .dark {
+    --background: 0 0% 4%;
+    --foreground: 0 0% 96%;
+    --card: 240 2% 12%;
+    --surface-2: 240 2% 15%;
+    --border: 0 0% 22%;
+    --muted-foreground: 0 0% 64%;
+
+    --brand: 37 90% 51%;
+    --brand-contrast: 20 60% 8%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: 'rlig' 1, 'calt' 1;
+  }
+
+  ::selection {
+    @apply bg-brand text-brand-contrast;
+  }
+}
+
+@layer utilities {
+  .bg-glow {
+    position: fixed;
+    inset: 0;
+    z-index: -10;
+    pointer-events: none;
+    opacity: 0.7;
+    background:
+      radial-gradient(560px 380px at 14% -6%, hsl(var(--brand) / 0.14), transparent 70%),
+      radial-gradient(420px 320px at 92% 8%, hsl(var(--brand) / 0.14), transparent 70%);
+  }
+
+  @keyframes pulse-dot {
+    0% {
+      box-shadow: 0 0 0 0 rgb(34 197 94 / 0.55);
+    }
+    70% {
+      box-shadow: 0 0 0 6px rgb(34 197 94 / 0);
+    }
+    100% {
+      box-shadow: 0 0 0 0 rgb(34 197 94 / 0);
+    }
+  }
+
+  .animate-pulse-dot {
+    animation: pulse-dot 2.2s ease-out infinite;
+  }
+}
