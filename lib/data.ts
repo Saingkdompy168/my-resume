@@ -34,12 +34,12 @@ export const education = [
   {
     degree: "Master's Degree, MIT",
     school: 'SETEC Institute',
-    period: 'Dec 2023 — Present',
+    period: '2023 — 2026 ',
   },
   {
     degree: "Bachelor's Degree, English Language and Literature",
     school: 'Asia Euro University',
-    period: '2018 — Present',
+    period: '2018 — OnHold',
   },
   {
     degree: "Bachelor's Degree, Computer Science",
